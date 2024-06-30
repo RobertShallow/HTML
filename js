@@ -16,8 +16,8 @@ function playMusic() {
   }
 }
 
-//Display World Descriptions
-function displayWorld(){
+//Display Military March table 
+  function displayWorld(){
   document.getElementById('Military-March-Preview').classList.toggle("non-display-table");
 }
 
