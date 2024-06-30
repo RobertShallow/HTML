@@ -19,7 +19,7 @@
     </div>
 
         <div class="music">
-            <button type="button" id="music-button" onclick="togglePlay()">
+            <button type="button" id="music-button" onclick="playMusic()">
                 <img id="music-icon" src="img/music-off.png" width="40" height="35" alt="Music Off">
             </button>
             <audio id="audio" src="audio/MainMusic.mp3" loop="loop"></audio>
@@ -48,10 +48,11 @@
         </div>
     </div>
 
-    <div class="Table">
-        <div id="Military-March">Military March</div>
+    <button id="Military-March" onclick="displayWorld()">Military March</button>
+    <div id="Military-March-Preview" class="non-display-table">
+       
         <table class="Zombies" border="1" width="100%">
-            <tr>
+            <tr >
                 <th>Name</th>
                 <th>Image</th>
                 <th>Special</th>
@@ -131,6 +132,11 @@
         </table>
     </div>
         
+
+
+
+
+
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
