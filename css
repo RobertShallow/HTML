@@ -113,21 +113,32 @@ body{
     border-style:inset;
     font-size: 40px;
     font-family:'Brush Script MT';
-    padding-left: 60px;
     
+    cursor: pointer;
 }
 
-
-/* Military March Table */
-.Table{
-    
-
+#Military-March:hover{
+    color: #07730E;
 }
 
+/* Table Option*/
+.display-table{
+    display:block;
+}
+
+.non-display-table{
+    display:none;
+}
+
+/* Military March Preview */
 .Zombies{
+   
     border:1px black;
     border-collapse: collapse;
     background-color: gainsboro;
     text-align: center;
 
 }
+
+
+
