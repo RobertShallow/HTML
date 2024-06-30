@@ -1,5 +1,5 @@
 //Music box
-function togglePlay() {
+function playMusic() {
   var audio = document.getElementById("audio");
   var musicButton = document.getElementById("music-button");
   var musicIcon = document.getElementById("music-icon");
@@ -15,3 +15,9 @@ function togglePlay() {
       musicIcon.src = "img/music-off.png"; // Path to the music-off image
   }
 }
+
+//Display World Descriptions
+function displayWorld(){
+  document.getElementById('Military-March-Preview').classList.toggle("non-display-table");
+}
+
