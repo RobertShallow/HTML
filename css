@@ -104,28 +104,21 @@ body{
 }
 
 /*Military March Title */
-#Military-March{
-    color: #079724;
-    background-color: #D7DF90;
+.button{
+    border:3px;
+    border-style:inset;
     margin-bottom:10px;
     width:300px;
-    border:3px #96D088;
-    border-style:inset;
     font-size: 40px;
-    font-family:'Brush Script MT';
-    
+    font-family:'Brush Script MT'; 
     cursor: pointer;
 }
 
-#Military-March:hover{
+#MM-button:hover{
     color: #07730E;
 }
 
 /* Table Option*/
-.display-table{
-    display:block;
-}
-
 .non-display-table{
     display:none;
 }
