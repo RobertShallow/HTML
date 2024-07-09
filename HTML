@@ -4,6 +4,11 @@
     <link rel="stylesheet" href="index.css">
     <script src="main.js"></script>
     <style>
+        #MM-button{
+            color: #079724;
+            background-color: #D7DF90;
+            border-color: #96D088;
+        }
 
     </style>
 </head>
@@ -47,10 +52,11 @@
         </p>
         </div>
     </div>
-
-    <button id="Military-March" onclick="displayWorld()">Military March</button>
+  
+    <div id="Military-March">
+        <button id="MM-button" class="button" onclick="displayTable('Military-March-Preview')">Military March</button>
+    
     <div id="Military-March-Preview" class="non-display-table">
-       
         <table class="Zombies" border="1" width="100%">
             <tr >
                 <th>Name</th>
@@ -130,8 +136,8 @@
                 </td>
             </tr>
         </table>
+        </div>
     </div>
-        
 
 
 
