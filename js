@@ -16,8 +16,28 @@ function playMusic() {
   }
 }
 
-//Display Military March table 
-  function displayWorld(){
-  document.getElementById('Military-March-Preview').classList.toggle("non-display-table");
-}
+//Display Military March table
+var count = 0;
 
+function displayTable(id){
+  var previewButton = document.getElementById("Preview-image");
+  showTable = document.getElementById(id);
+  
+  count++;
+
+  if (count==1){
+    previewButton.src = "img/Cancel-Button.png";
+    previewButton.classList.remove("PreviewImage-size");
+    previewButton.classList.add("CancelImage-size");
+    showTable.classList.remove("non-display-table");
+    
+ } 
+  else {
+    previewButton.src = "img/Preview-Button.png";
+    previewButton.classList.remove("CancelImage-size");
+    previewButton.classList.add("PreviewImage-size");
+    showTable.classList.add("non-display-table");
+    count = 0;
+}
+  
+}
